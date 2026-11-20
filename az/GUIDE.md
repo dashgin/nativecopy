@@ -61,6 +61,8 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 ## Calque tells (see avoid.jsonl)
 - Russian officialese: passive nominalisations ("Bildirişlərin aktiv edilməsi"), "Pul vəsaitləri … ödənilib",
   "sahib olmaq lazımdır" (нужно иметь), "Yüksək əlçatanlıq".
+- Abstract slogans: "Sonsuz sürüşdürməyə son qoy" (Stop doomscrolling) stacks 'sonsuz' on 'X-ə son qoy' and reads
+  translated. Name the concrete thing in a short sən imperative: "Reels-də itib getmə."
 - English shapes: "Qarşılayın" for "Meet …", "sadə və sürətli şəkildə" for -ly adverbs, "Heç bir" + plural noun,
   "Dizayna görə təhlükəsizlik" for "secure by design".
 - Turkish passing as az: "Bildirimler kapalı", "Molaya mı ihtiyacınız var?" seen in Firefox's az (not included in the
