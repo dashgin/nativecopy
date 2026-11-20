@@ -38,7 +38,9 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 ## Errors, limits, empty screens
 - Base error: **"Xəta baş verdi. Yenidən cəhd et(in)."** Warmer: "Oyy, nəsə xəta baş verdi!" (Wolt).
 - A failure we own takes **-ə bilmədik**: "eSIM QR kodunu yükləyə bilmədik. Yenidən cəhd et." (Bakcell),
-  "Sifarişinizi yerləşdirə bilmədik" (Wolt). "… mümkün olmadı / deyil" is the cooler, impersonal form.
+  "Sifarişinizi yerləşdirə bilmədik" (Wolt). For short labels and toasts, the casual spoken form is **"X-mək alınmadı" /
+  "X alınmadı"**: "Ödəniş metodunu əlavə etmək alınmadı", "Ödəniş alınmadı", "Təsdiqləmə alınmadı" (Wolt), "Serverlə
+  əlaqə alınmadı" (Android). "… mümkün olmadı / deyil" is the cooler, impersonal form.
 - Time's up: **"Vaxtın bitdi"** (Bakcell). A wait: "Yenidən göndərmək üçün {time} gözləyin" (Birbank).
 - A limit: "SMS göndərmə limiti bitdi", "limitə çatdınız"; a lockout says when it lifts: "Növbəti cəhd bir saatdan sonra
   aktiv olacaq."
