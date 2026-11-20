@@ -3,7 +3,8 @@
 Every source tried in the pilot (November 2026), how native its voice reads (1–5), and where its rows went.
 `phrase` rows are models to write from; `term` rows are platform UI names to reuse but not to imitate in phrasing;
 `avoid` rows are kept as bad examples. Tiers are set row by row, not per source. Every row was checked word for word against the fetched page; 66 that could not
-be found were dropped.
+be found were dropped. State strings (errors, limits, empty screens) come from locale files the sites ship publicly,
+looked up by key.
 
 ## Russian
 
@@ -18,6 +19,10 @@ be found were dropped.
 | Google: Android, Digital Wellbeing, YouTube help | 4 | вы | term | Pages carry an AI-translation notice |
 | TikTok newsroom | 2.5 | | avoid | Press-release tone; support site needs JavaScript |
 | Kaspersky Safe Kids | 2 | | avoid | Translated from English, genitive chains |
+| Lingualeo | 4 | ты | phrase | Whole dictionary inlined in the page, ru and en by key; the ru is the original |
+| Иви (ivi.ru) | 4 | ты | phrase | Public i18n file with readable keys; en is a gloss |
+| Делимобиль, Yota, КИОН | 4–5 | ты | phrase (few) | Page bundles; en is a gloss |
+| Checked and skipped as вы | | | | Duolingo ru, Steam, Pinterest, Canva, Snapchat, Aviasales, Discord (ты only in jokes) |
 | Not reached | | | | T-Bank (certificate error), Avito (refused), Instagram help and TikTok support (JavaScript), Duolingo (JavaScript) |
 
 ## Azerbaijani
@@ -46,6 +51,11 @@ be found were dropped.
 | YouTube Help | 2 | | term / avoid | Labelled AI-translated; typos. Clean button labels kept as terms only |
 | Telegram az | 2 | | excluded | Public site shows only unapproved crowd suggestions |
 | PASHA Bank | 3 | siz | row by row | Business page only |
+| Bakcell web (state strings) | 4.5 | sən | phrase | Locale JSON in the page; the most consistent sən voice |
+| Birbank web, PASHA, Baku Metro | 3.5–4 | | phrase / term | Errors, waits, empty states |
+| Wolt web (state strings) | 3–4 | siz (some sən) | row by row | ~3.7k az/en pairs inlined; translators differ |
+| tap.az, Bina.az, ABB | 3–3.5 | siz | row by row | Russian-first; 'hələ ki', 'Hal hazırda sizin' in avoid |
+| Lalafo | 2.5 | | row by row | English left in az strings, typos; worst rows in avoid |
 | Not reached / no az | | | | Duolingo, Netflix, Zoom, Opera (no az); Booking, Uber, Canva (blocked); Meta and Instagram help (JavaScript); Microsoft Terminology (licence unverified, not harvested) |
 
 ## Licences

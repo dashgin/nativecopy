@@ -35,6 +35,20 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 | top up | balansını artır | Bakcell, Nar |
 | free | pulsuz (shops, apps), ödənişsiz (Google, WhatsApp) | |
 
+## Errors, limits, empty screens
+- Base error: **"Xəta baş verdi. Yenidən cəhd et(in)."** Warmer: "Oyy, nəsə xəta baş verdi!" (Wolt).
+- A failure we own takes **-ə bilmədik**: "eSIM QR kodunu yükləyə bilmədik. Yenidən cəhd et." (Bakcell),
+  "Sifarişinizi yerləşdirə bilmədik" (Wolt). "… mümkün olmadı / deyil" is the cooler, impersonal form.
+- Time's up: **"Vaxtın bitdi"** (Bakcell). A wait: "Yenidən göndərmək üçün {time} gözləyin" (Birbank).
+- A limit: "SMS göndərmə limiti bitdi", "limitə çatdınız"; a lockout says when it lifts: "Növbəti cəhd bir saatdan sonra
+  aktiv olacaq."
+- A conflict gives the next step: "Bu vaxt artıq tutulub. Başqa vaxt seçin." (Birbank).
+- Empty: **"hələ … yoxdur"** for "no … yet" ("Bu kateqoriyada hələ sual yoxdur"), "Səbətiniz boşdur",
+  "heç nə tapılmadı" for no results. All caught up: "Əla, bütün məlumatlar yenilənib 🎉" (Wolt).
+- Success: "uğurla" + past passive ("Dəyişikliklər uğurla yadda saxlanıldı"); in sən voice "Sifarişin uğurla tamamlandı".
+- Calques here: "hələ ki" and "Hal-hazırda sizin …" (Russian пока что / на данный момент у вас), "Konum" (Turkish for
+  yer/məkan).
+
 ## Words to settle once
 - Privacy = **Məxfilik**. "Gizlilik" is Turkish, "Konfidensiallıq" is a Russian calque.
 - Settings: four words are in use (Ayarlar, Parametrlər, Nizamlamalar, Tənzimləmələr). Use one for your own product;

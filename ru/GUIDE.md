@@ -35,6 +35,19 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 | it's time to | пора + infinitive («Напоминать, что пора ложиться спать») | Google |
 | welcome back | С возвращением! | Alice |
 
+## Writing on «ты» (Lingualeo, Иви, Делимобиль, Yota)
+- The verb carries «ты»; the pronoun is rarely written: «Выбери», «Попробуй ещё раз», «Подожди и попробуй ещё раз через
+  {{timerSec}}».
+- Error: «Упс… Что-то пошло не так, попробуй ещё раз», «Не удалось удалить аккаунт. Попробуй ещё раз.». Calm a failure:
+  «Ничего страшного — мы сохранили твоё сообщение.» (Делимобиль).
+- Time's up / limit as a wait: «Упс, твоё время вышло…», «Возвращайся завтра и получи ещё награду!».
+- Empty is a fact plus a next step: «У тебя пока нет избранных материалов.», «Здесь совсем пусто :( Добавь скорее слова
+  для изучения.», «Все задания выполнены. Завтра тебя будут ждать новые упражнения!».
+- Onboarding invites with «Давай»: «Давай знакомиться!», «Давай узнаем твой уровень языка!». Welcome back:
+  «Эй, рад тебя снова видеть!».
+- Confirm with «точно»: «Точно хочешь выйти из аккаунта?», «Ты точно хочешь удалить свой аккаунт?».
+- Most big ru products stay on «вы» (Duolingo, Steam, Canva, Skyeng's site); «ты» is a brand choice.
+
 ## Feature names users already see (see terms.jsonl)
 Screen Time = «Экранное время», Time Allowances = «Лимиты времени» (Apple); Bedtime routine = «Пора спать»,
 Focus mode = «Концентрация внимания», Sleep timer = «Автовыключение», Shorts feed limit = «Ограничение для Shorts»
