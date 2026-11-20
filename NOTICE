@@ -1,0 +1,10 @@
+nativecopy
+Copyright (c) 2026 dashgin
+
+Rows whose product is "Android Settings", "Android SystemUI" or "Android core" quote strings from the
+Android Open Source Project (platform_packages_apps_Settings, platform_frameworks_base),
+Copyright The Android Open Source Project, licensed under the Apache License, Version 2.0:
+https://www.apache.org/licenses/LICENSE-2.0
+
+All other rows quote short interface and marketing strings from the products named in each row, with the source URL.
+Those strings belong to their owners and are quoted for reference.
