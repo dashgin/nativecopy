@@ -13,8 +13,8 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 ## Buttons and short labels
 - Verb, bare: Başla, Davam et, Ləğv et, Təsdiq et, Daxil ol, Ətraflı öyrən, X-i endir / yüklə.
 - Join = **"X-li ol" / "X-a qoşul"** ("Azercell-li ol", "Nar-a qoşul"), never "Qoşulun bizə".
-- Sign in = **Daxil ol(un)**; "Giriş" works as a noun label. "Giriş et" (Spotify, Airbnb) looks like a Turkish-style
-  calque; awaiting a native-speaker check.
+- Sign in = **Daxil ol(un)** or **Giriş et(in)** (Spotify; a native speaker confirmed both); "Giriş" works as a noun
+  label.
 - Logins / credentials = **giriş məlumatları**, never "girişlər".
 - Dialog questions take **-ilsin?**: "Bu ödəniş üsulu silinsin?", "Saxlanılmamış dəyişikliklər ləğv edilsin?".
   A negative setting takes -məsin ("göndərilməsin").
