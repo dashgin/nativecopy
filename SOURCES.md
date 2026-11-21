@@ -1,9 +1,9 @@
 # Sources
 
-Every source tried in the pilot (November 2026), how native its voice reads (1–5), and where its rows went.
+Every source tried (November 2026: pilot, then round 2 with JavaScript-rendered pages, new industries and Turkish), how native its voice reads (1–5), and where its rows went.
 `phrase` rows are models to write from; `term` rows are platform UI names to reuse but not to imitate in phrasing;
-`avoid` rows are kept as bad examples. Tiers are set row by row, not per source. Every row was checked word for word against the fetched page; 66 that could not
-be found were dropped. State strings (errors, limits, empty screens) come from locale files the sites ship publicly,
+`avoid` rows are kept as bad examples. Tiers are set row by row, not per source. Every row was checked word for word against the saved raw page (round 2 rendered JavaScript pages in a headless
+browser with a fresh profile); rows that could not be found were dropped. State strings (errors, limits, empty screens) come from locale files the sites ship publicly,
 looked up by key.
 
 ## Russian
@@ -22,8 +22,20 @@ looked up by key.
 | Lingualeo | 4 | ты | phrase | Whole dictionary inlined in the page, ru and en by key; the ru is the original |
 | Иви (ivi.ru) | 4 | ты | phrase | Public i18n file with readable keys; en is a gloss |
 | Делимобиль, Yota, КИОН | 4–5 | ты | phrase (few) | Page bundles; en is a gloss |
-| Checked and skipped as вы | | | | Duolingo ru, Steam, Pinterest, Canva, Snapchat, Aviasales, Discord (ты only in jokes) |
-| Not reached | | | | T-Bank (certificate error), Avito (refused), Instagram help and TikTok support (JavaScript), Duolingo (JavaScript) |
+| Checked for ты, all вы | | | | Duolingo ru, Steam, Pinterest, Canva, Snapchat, Aviasales, Discord (ты only in jokes) |
+| Duolingo (web app locale bundles) | 5 | вы | phrase | Same keys in ru and en; localises rather than translates («Повторение — мать учения») |
+| Avito Support | 5 | вы, questions in the user's «я» | phrase | Plain, honest limits («Ускорить не получится — нужно подождать.»); en is a gloss |
+| START | 4.5 | вы | phrase | Best failed-payment and cancel-reason wording; en is a gloss |
+| Пикабу | 4.5 | вы | phrase | Humour in empty and error states; en is a gloss |
+| hh.ru | 4 | вы | phrase | ~4,500 keys inlined; limits, autorenew, cancel; en is a gloss |
+| Островок | 4–4.5 | вы | phrase | Keyed ru/en bundle, real pairs |
+| ОК (Одноклассники) | 4 | вы | phrase | Keyed ru/en dictionary; ru is the original |
+| 2ГИС, Папа Джонс, Облако Mail, Дзен, ВкусВилл, Wink, Туту, Т-Банк help | 3.5–4 | вы (ты in loyalty, game, a few prompts) | phrase | en is a gloss |
+| Нетология | 3–3.5 | вы | phrase (few) | |
+| Госуслуги | 2 | | avoid | Only the error page reached; officialese |
+| TikTok Support | 3 | вы | term | Machine-localised; feature names only |
+| Instagram, Facebook Help | 3–4 | вы | term | Machine-localised; one feature has two names |
+| Not reached | | | | T-Bank main site (certificate error), avito.ru (429), Сбер, Альфа, ВТБ, РЖД, Rutube, Wildberries, Okko, Самокат, Купер, Мегамаркет, Учи.ру, Звук (blocked or empty); VK (dictionary only via its API) |
 
 ## Azerbaijani
 
@@ -56,7 +68,30 @@ looked up by key.
 | Wolt web (state strings) | 3–4 | siz (some sən) | row by row | ~3.7k az/en pairs inlined; translators differ |
 | tap.az, Bina.az, ABB | 3–3.5 | siz | row by row | Russian-first; 'hələ ki', 'Hal hazırda sizin' in avoid |
 | Lalafo | 2.5 | | row by row | English left in az strings, typos; worst rows in avoid |
-| Not reached / no az | | | | Duolingo, Netflix, Zoom, Opera (no az); Booking, Uber, Canva (blocked); Meta and Instagram help (JavaScript); Microsoft Terminology (licence unverified, not harvested) |
+| iTicket | 4 | siz, sən in gifting | phrase | 1,199 az/en keys in locale chunks |
+| myGov (my.gov.az) | 4 new strings, 2–3 legacy | siz | row by row | ~380 az/en keys; chatbot errors are the best state strings found |
+| PASHA Sığorta | 4–5 | sən | phrase | ~640 az/en keys |
+| Unibank, Rabitəbank, Expressbank, Araz | 4 | sən | phrase | |
+| Baku Electronics | 3 | sən + siz mixed | row by row | 'Sizin hal-hazırda …' calques in avoid |
+| AccessBank, Huawei, Samsung, Irshad, Azərpoçt | 3–4 | | phrase (few) | |
+| ASAN, DOST, BakuBus, Atəşgah, PASHA Life | 2–3 | | avoid (mostly) | Officialese, Turkish words |
+| TikTok Support az | 2.5 | siz | term / avoid | Labelled AI-translated |
+| Instagram, Facebook Help az | 1 | | avoid / term | Mostly English with az words spliced in |
+| Not reached / no az | | | | Duolingo, Netflix, Zoom, Opera (no az); Booking, Uber, Canva, Kontakt, AZAL, ADY, CinemaPlus, Oxu, Bank Respublika, Ultel, Citynet, Trendyol, e-gov, e-Təbib, Azərişıq, Azərsu (blocked or unreachable); Microsoft Terminology (licence unverified, not harvested) |
+
+## Turkish
+
+| Source | Voice | Register | Used as | Note |
+|---|---|---|---|---|
+| Spotify (premium, support) | 5 | sen | phrase | Best subscription and cancel wording; rewrites, not translates |
+| fizy | 4.5 | sen | phrase | en is a gloss |
+| Turkcell, BiP | 4 | siz (sen in ads) | phrase | The English is the translated side |
+| ininal, Enpara, Garanti BBVA, Vodafone, Türk Telekom, İş Bankası | 4 | siz | phrase (few) | Vodafone mixes sen and siz on one page |
+| Storytel | 3.5 | sen marketing, mixed bundle | row by row | 891 keys paired with en; register flips in billing copy |
+| Android (AOSP strings) | 4 | siz | term | Apache-2.0 |
+| Google Digital Wellbeing, YouTube Help | 3 | siz | term | Labelled AI-translated |
+| Instagram Help | 3 | siz, sen for teens | row by row | Passive nominal titles, 'anında ilet bildirimi' |
+| Not reached | | | | Getir, Yemeksepeti, Trendyol, Hepsiburada, n11, sahibinden, Armut, BiTaksi, Pegasus, THY (403 or empty); Papara, Exxen (consent wall); Max TR, BluTV, Gain, Martı (empty or not Turkish UI) |
 
 ## Licences
 No commercial source states a licence for its interface text. The repo quotes only short strings, each with its URL.

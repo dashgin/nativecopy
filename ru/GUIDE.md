@@ -35,6 +35,24 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 | it's time to | пора + infinitive («Напоминать, что пора ложиться спать») | Google |
 | welcome back | С возвращением! | Alice |
 
+## Errors, limits, empty screens
+- Own the failure and give the next step: «Деньги за покупку не списали. Попробуйте ещё раз» (START), «Не сохранилось —
+  технический сбой. Попробуйте ещё раз» (hh.ru), «Скоро все починим. Попробуйте позже» (START).
+- Base error: «Что-то пошло не так!» (Duolingo, ОК). Maintenance: «Небольшой технический перерыв!».
+- A limit says when it lifts or why: «Запросить новый код можно через час.», «Ускорить не получится — нужно подождать.»
+  (Avito), «Вы отправляете очень много приглашений. Пожалуйста, сделайте небольшую паузу.» (ОК).
+- Ran out: «У вас закончились жизни!» (Duolingo). Keep a streak: «Прогресс обнулится, если вы пропустите урок завтра.
+  Берегите его!».
+- Empty: **«пока»** («Тут пока ничего нет», «Клипов пока нет», «Пока нет подписок»); no search results: **«Ничего не
+  нашлось»** / «Мы ничего не нашли :(». End of feed: «Отлично, все прокручено!» (Пикабу). Daily goal: «Отлично, цель
+  дня достигнута!».
+- Calm a mistake: «Ничего страшного! На ошибках учатся.», «Ошибки не помеха» (Duolingo).
+- Light humour is native in these states (Пикабу «Нет связи с космосом!», Островок «Мы в восторге от этого, а вот вы,
+  скорее всего, нет :(»). Officialese is the tell: «Оплата прошла успешно», «Приносим извинения за временные
+  неудобства», «Во время обработки запроса произошла ошибка».
+- Cancel flows speak in the user's voice: «Хочу отключить подписку на время», «Нет времени смотреть» (START); the
+  keep button is «Не отменять» (hh.ru).
+
 ## Writing on «ты» (Lingualeo, Иви, Делимобиль, Yota)
 - The verb carries «ты»; the pronoun is rarely written: «Выбери», «Попробуй ещё раз», «Подожди и попробуй ещё раз через
   {{timerSec}}».
@@ -51,7 +69,9 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 ## Feature names users already see (see terms.jsonl)
 Screen Time = «Экранное время», Time Allowances = «Лимиты времени» (Apple); Bedtime routine = «Пора спать»,
 Focus mode = «Концентрация внимания», Sleep timer = «Автовыключение», Shorts feed limit = «Ограничение для Shorts»
-(Google). Take the names, not the phrasing: Google's ru help is labelled AI-translated and Apple's guide is stiff
+(Google); Daily screen time = «Дневное экранное время», Sleep reminders = «Напоминания о сне», For You = «Лента
+«Рекомендации»», Not interested = «Неинтересно» (TikTok). Take the names, not the phrasing (Meta and TikTok help are
+machine-localised: the same Instagram feature is «спящий режим» on one page and «ночной режим» on another): Google's ru help is labelled AI-translated and Apple's guide is stiff
 («Фокусирование», «Включить учет Активности…»).
 
 ## Calque tells (see avoid.jsonl)

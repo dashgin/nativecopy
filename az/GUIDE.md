@@ -36,19 +36,24 @@ Pilot, November 2026. A native speaker has the last word on every rule.
 | free | pulsuz (shops, apps), ödənişsiz (Google, WhatsApp) | |
 
 ## Errors, limits, empty screens
-- Base error: **"Xəta baş verdi. Yenidən cəhd et(in)."** Warmer: "Oyy, nəsə xəta baş verdi!" (Wolt).
+- Base error: **"Xəta baş verdi. Yenidən cəhd et(in)."** Warmer: "Oyy, nəsə xəta baş verdi!" (Wolt), "Nəsə səhv
+  getdi. Bir az sonra yenidən cəhd edin." (myGov), "Nəsə səhv oldu" (PASHA Sığorta). Owning it: "Artıq problemi
+  araşdırırıq. Bir neçə dəqiqədən sonra yenidən cəhd et." (PASHA Sığorta).
+- A payment or request that didn't go through: **"baş tutmadı"** ("Ödəniş baş tutmadı", iTicket).
 - A failure we own takes **-ə bilmədik**: "eSIM QR kodunu yükləyə bilmədik. Yenidən cəhd et." (Bakcell),
   "Sifarişinizi yerləşdirə bilmədik" (Wolt). For short labels and toasts, the casual spoken form is **"X-mək alınmadı" /
   "X alınmadı"**: "Ödəniş metodunu əlavə etmək alınmadı", "Ödəniş alınmadı", "Təsdiqləmə alınmadı" (Wolt), "Serverlə
   əlaqə alınmadı" (Android). "… mümkün olmadı / deyil" is the cooler, impersonal form.
-- Time's up: **"Vaxtın bitdi"** (Bakcell). A wait: "Yenidən göndərmək üçün {time} gözləyin" (Birbank).
+- Time's up: **"Vaxtın bitdi"** (Bakcell), "QR kodun vaxtı bitdi", "Kodun müddəti bitdi. Yeni kod göndərin." (iTicket).
+  Too long: "Səs yazısı çox uzundur. Maksimum müddət 1 dəqiqədir." (myGov). A wait: "Yenidən göndərmək üçün {time} gözləyin" (Birbank).
 - A limit: "SMS göndərmə limiti bitdi", "limitə çatdınız"; a lockout says when it lifts: "Növbəti cəhd bir saatdan sonra
   aktiv olacaq."
 - A conflict gives the next step: "Bu vaxt artıq tutulub. Başqa vaxt seçin." (Birbank).
 - Empty: **"hələ … yoxdur"** for "no … yet" ("Bu kateqoriyada hələ sual yoxdur"), "Səbətiniz boşdur",
   "heç nə tapılmadı" for no results. All caught up: "Əla, bütün məlumatlar yenilənib 🎉" (Wolt).
 - Success: "uğurla" + past passive ("Dəyişikliklər uğurla yadda saxlanıldı"); in sən voice "Sifarişin uğurla tamamlandı".
-- Calques here: "hələ ki" and "Hal-hazırda sizin …" (Russian пока что / на данный момент у вас), "Konum" (Turkish for
+  More: "Hələ söhbət yoxdur.", "Hələ bildirişin yoxdur." (myGov, iTicket); "Axtarış üzrə nəticə tapılmadı".
+- Calques here: "Sizin hal-hazırda sevimliləriniz yoxdur" (say "Hələ sevimliniz yoxdur"), "hələ ki" and "Hal-hazırda sizin …" (Russian пока что / на данный момент у вас), "Konum" (Turkish for
   yer/məkan).
 
 ## Words to settle once
@@ -67,6 +72,9 @@ Pilot, November 2026. A native speaker has the last word on every rule.
   translated. Name the concrete thing in a short sən imperative: "Reels-də itib getmə."
 - English shapes: "Qarşılayın" for "Meet …", "sadə və sürətli şəkildə" for -ly adverbs, "Heç bir" + plural noun,
   "Dizayna görə təhlükəsizlik" for "secure by design".
-- Turkish passing as az: "Bildirimler kapalı", "Molaya mı ihtiyacınız var?" seen in Firefox's az (not included in the
+- Turkish passing as az: "güvənli" (az: etibarlı, təhlükəsiz), "sigorta" (sığorta), "nələrdi"; "Bildirimler kapalı", "Molaya mı ihtiyacınız var?" seen in Firefox's az (not included in the
   data for licence reasons).
-- Machine translation: Google Help and Airbnb help in az are labelled auto-translated; never copy their phrasing.
+- Machine translation: Google Help, Airbnb help and TikTok Support in az are labelled auto-translated ("Süni intellektlə
+  tərcümə olunub"); Instagram and Facebook help in az are mostly English with az words spliced in. Never copy their
+  phrasing ("Vaxt və rifah", "defolt olaraq", "Özünüzünkünü əlavə edin" for Add Yours).
+- Russian officialese in public services: "Nöqsan aşkar edildi", "Reqlament", "… sahəsində göstərilən xidmətlər".
