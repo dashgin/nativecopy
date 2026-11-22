@@ -1,7 +1,7 @@
 # nativecopy
 
 **How real products say it, in other languages.** A phrasebook of short UI and marketing strings that people wrote
-natively in Russian, Azerbaijani and Turkish (Turkish is a pilot), lined up with English and tagged by situation.
+natively in Russian, Azerbaijani, Turkish, Georgian and Arabic, lined up with English and tagged by situation.
 
 AI models translate words well and meaning badly: "Back to top" comes out as a word-for-word calque, the register
 flips between formal and casual, and a feature gets a name no local user has ever seen. This repo gives a writer
@@ -24,7 +24,7 @@ One row:
 ```
 
 `situation` is one of: cta, headline, onboarding, settings, limit_time, empty_done, error, success, notification,
-privacy_security, pricing, help, misc. `register` is ty / vy (ru), sen / siz (az, tr), or impersonal.
+privacy_security, pricing, help, misc. `register` is ty / vy (ru), sen / siz (az, tr), shen / tkven (ka), masc / fem / plural / neutral (ar), or impersonal.
 
 ## How rows get in
 
